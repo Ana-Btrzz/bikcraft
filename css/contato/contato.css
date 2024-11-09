@@ -15,12 +15,13 @@
 
 .contato-dados {
   border-radius: 5px 0 0 5px;
-  background-color: var(--cor-12);
+  background: var(--cor-12) url(../../img/icones/detalhe/bottom-left.svg)
+    no-repeat bottom 20px left 20px;
 }
 
 .contato-formulario {
   border-radius: 0 5px 5px 0;
-  background-color: var(--cor-0);
+  background: var(--cor-0);
 }
 
 .contato-dados h2 {
@@ -74,6 +75,7 @@
   }
   .contato-dados {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
   .contato-formulario {
     border-radius: 0 0 5px 5px;
